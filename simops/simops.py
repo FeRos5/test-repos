@@ -6,18 +6,22 @@ class SimOps:
         self.x = x
         self.y = y
 
+    @property
     def add(self):
         """Add function"""
         return self.x + self.y
 
+    @property
     def subtract(self):
         """Subtract function"""
         return self.x - self.y
 
+    @property
     def multiply(self):
         """"Multiply function"""
         return self.x * self.y
 
+    @property
     def divide(self):
         """Divide function"""
         if self.y == 0:
